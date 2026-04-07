@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Github, Menu, X } from "lucide-react";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { Coffee, Github, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -73,6 +74,24 @@ export function Header({ curveMode = "easing", onCurveModeChange }: HeaderProps)
 
         {/* Right: Actions */}
         <div className="flex items-center gap-2">
+          <TooltipProvider>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <a
+                  href="https://ko-fi.com/bryanchen0621"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hidden md:block"
+                >
+                  <Button variant="ghost" size="icon" className="h-9 w-9">
+                    <Coffee className="h-4 w-4" />
+                    <span className="sr-only">Ko-fi</span>
+                  </Button>
+                </a>
+              </TooltipTrigger>
+              <TooltipContent>Programmers need caffeine too ☕</TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
           <a
             href="https://github.com/chenz24/easing.tools"
             target="_blank"
@@ -102,6 +121,15 @@ export function Header({ curveMode = "easing", onCurveModeChange }: HeaderProps)
       {mobileMenuOpen && (
         <div className="border-t border-border bg-background md:hidden">
           <nav className="flex flex-col gap-2 p-4">
+            <a
+              href="https://ko-fi.com/bryanchen0621"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+            >
+              <Coffee className="h-4 w-4" />
+              Ko-fi
+            </a>
             <a
               href="https://github.com/chenz24/easing.tools"
               target="_blank"

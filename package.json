@@ -11,6 +11,7 @@
     "lint:fix": "biome check --write .",
     "format": "biome format --write .",
     "preview": "vite preview",
+    "deploy": "pnpm build && npx wrangler pages deploy dist --project-name=easing-tools",
     "test": "vitest run",
     "test:watch": "vitest"
   },
