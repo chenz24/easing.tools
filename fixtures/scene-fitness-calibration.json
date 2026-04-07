@@ -1,0 +1,522 @@
+[
+  {
+    "scene": "list-loading",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.05,
+      "y1": 0.7,
+      "x2": 0.1,
+      "y2": 1.0
+    },
+    "duration": 0.4,
+    "expectedLevel": "great",
+    "source": "Material Design 3 — emphasized decelerate"
+  },
+  {
+    "scene": "list-loading",
+    "curve": {
+      "type": "bezier",
+      "x1": 0,
+      "y1": 0,
+      "x2": 0.38,
+      "y2": 0.9
+    },
+    "duration": 0.35,
+    "expectedLevel": "great",
+    "source": "IBM Carbon — entrance productive"
+  },
+  {
+    "scene": "list-loading",
+    "curve": {
+      "type": "bezier",
+      "x1": 0,
+      "y1": 0,
+      "x2": 0.3,
+      "y2": 1
+    },
+    "duration": 0.4,
+    "expectedLevel": "great",
+    "source": "IBM Carbon — entrance expressive"
+  },
+  {
+    "scene": "list-loading",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.42,
+      "y1": 0,
+      "x2": 1,
+      "y2": 1
+    },
+    "duration": 0.4,
+    "expectedLevel": "poor",
+    "source": "Counter-example — ease-in feels sluggish for list entrance"
+  },
+  {
+    "scene": "list-loading",
+    "curve": {
+      "type": "bezier",
+      "x1": 0,
+      "y1": 0,
+      "x2": 1,
+      "y2": 1
+    },
+    "duration": 0.4,
+    "expectedLevel": "fair",
+    "source": "Counter-example — linear lacks expressiveness"
+  },
+  {
+    "scene": "drawer",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.2,
+      "y1": 0,
+      "x2": 0.38,
+      "y2": 0.9
+    },
+    "duration": 0.3,
+    "expectedLevel": "great",
+    "source": "IBM Carbon — standard productive"
+  },
+  {
+    "scene": "drawer",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.4,
+      "y1": 0.14,
+      "x2": 0.3,
+      "y2": 1
+    },
+    "duration": 0.35,
+    "expectedLevel": "great",
+    "source": "IBM Carbon — standard expressive"
+  },
+  {
+    "scene": "drawer",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.05,
+      "y1": 0.7,
+      "x2": 0.1,
+      "y2": 1.0
+    },
+    "duration": 0.3,
+    "expectedLevel": "great",
+    "source": "Material Design 3 — emphasized decelerate"
+  },
+  {
+    "scene": "drawer",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.3,
+      "y1": 0,
+      "x2": 0.8,
+      "y2": 0.15
+    },
+    "duration": 0.3,
+    "expectedLevel": "poor",
+    "source": "Counter-example — emphasized accelerate feels jarring for drawer open"
+  },
+  {
+    "scene": "skeleton",
+    "curve": {
+      "type": "bezier",
+      "x1": 0,
+      "y1": 0,
+      "x2": 1,
+      "y2": 1
+    },
+    "duration": 1.5,
+    "expectedLevel": "great",
+    "source": "Common practice — linear for continuous shimmer"
+  },
+  {
+    "scene": "skeleton",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.25,
+      "y1": 0.1,
+      "x2": 0.25,
+      "y2": 1
+    },
+    "duration": 1.2,
+    "expectedLevel": "good",
+    "source": "CSS ease — acceptable for shimmer"
+  },
+  {
+    "scene": "skeleton",
+    "curve": {
+      "type": "bezier",
+      "x1": 0,
+      "y1": 0.8,
+      "x2": 0.2,
+      "y2": 1.2
+    },
+    "duration": 1.0,
+    "expectedLevel": "poor",
+    "source": "Counter-example — overshoot is jarring for skeleton"
+  },
+  {
+    "scene": "button-hover",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.2,
+      "y1": 0,
+      "x2": 0.38,
+      "y2": 0.9
+    },
+    "duration": 0.15,
+    "expectedLevel": "great",
+    "source": "IBM Carbon — standard productive (micro-interaction)"
+  },
+  {
+    "scene": "button-hover",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.25,
+      "y1": 0.1,
+      "x2": 0.25,
+      "y2": 1
+    },
+    "duration": 0.2,
+    "expectedLevel": "great",
+    "source": "CSS ease — responsive for hover states"
+  },
+  {
+    "scene": "button-hover",
+    "curve": {
+      "type": "bezier",
+      "x1": 0,
+      "y1": 0,
+      "x2": 0.2,
+      "y2": 1
+    },
+    "duration": 0.15,
+    "expectedLevel": "great",
+    "source": "CSS ease-out — quick response"
+  },
+  {
+    "scene": "button-hover",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.42,
+      "y1": 0,
+      "x2": 1,
+      "y2": 1
+    },
+    "duration": 0.3,
+    "expectedLevel": "poor",
+    "source": "Counter-example — ease-in too slow for hover feedback"
+  },
+  {
+    "scene": "modal",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.05,
+      "y1": 0.7,
+      "x2": 0.1,
+      "y2": 1.0
+    },
+    "duration": 0.25,
+    "expectedLevel": "great",
+    "source": "Material Design 3 — emphasized decelerate"
+  },
+  {
+    "scene": "modal",
+    "curve": {
+      "type": "bezier",
+      "x1": 0,
+      "y1": 0,
+      "x2": 0.3,
+      "y2": 1
+    },
+    "duration": 0.3,
+    "expectedLevel": "great",
+    "source": "IBM Carbon — entrance expressive"
+  },
+  {
+    "scene": "modal",
+    "curve": {
+      "type": "spring",
+      "mass": 1,
+      "stiffness": 500,
+      "damping": 30,
+      "velocity": 0
+    },
+    "duration": null,
+    "expectedLevel": "great",
+    "source": "Common — responsive spring for modal pop"
+  },
+  {
+    "scene": "modal",
+    "curve": {
+      "type": "spring",
+      "mass": 1,
+      "stiffness": 200,
+      "damping": 10,
+      "velocity": 0
+    },
+    "duration": null,
+    "expectedLevel": "good",
+    "source": "Bouncy spring — acceptable with controlled overshoot"
+  },
+  {
+    "scene": "modal",
+    "curve": {
+      "type": "spring",
+      "mass": 1,
+      "stiffness": 100,
+      "damping": 5,
+      "velocity": 0
+    },
+    "duration": null,
+    "expectedLevel": "poor",
+    "source": "Counter-example — underdamped spring too bouncy for modal"
+  },
+  {
+    "scene": "toast",
+    "curve": {
+      "type": "bezier",
+      "x1": 0,
+      "y1": 0,
+      "x2": 0.38,
+      "y2": 0.9
+    },
+    "duration": 0.3,
+    "expectedLevel": "great",
+    "source": "IBM Carbon — entrance productive"
+  },
+  {
+    "scene": "toast",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.05,
+      "y1": 0.7,
+      "x2": 0.1,
+      "y2": 1.0
+    },
+    "duration": 0.35,
+    "expectedLevel": "great",
+    "source": "Material Design 3 — emphasized decelerate"
+  },
+  {
+    "scene": "toast",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.42,
+      "y1": 0,
+      "x2": 0.58,
+      "y2": 1
+    },
+    "duration": 0.3,
+    "expectedLevel": "fair",
+    "source": "CSS ease-in-out — not ideal, entrance should be snappier"
+  },
+  {
+    "scene": "tab-switch",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.42,
+      "y1": 0,
+      "x2": 0.58,
+      "y2": 1
+    },
+    "duration": 0.25,
+    "expectedLevel": "great",
+    "source": "CSS ease-in-out — smooth tab indicator transition"
+  },
+  {
+    "scene": "tab-switch",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.2,
+      "y1": 0,
+      "x2": 0.38,
+      "y2": 0.9
+    },
+    "duration": 0.2,
+    "expectedLevel": "great",
+    "source": "IBM Carbon — standard productive"
+  },
+  {
+    "scene": "tab-switch",
+    "curve": {
+      "type": "bezier",
+      "x1": 0,
+      "y1": 0.8,
+      "x2": 0.2,
+      "y2": 1.2
+    },
+    "duration": 0.25,
+    "expectedLevel": "poor",
+    "source": "Counter-example — overshoot causes visual glitch on tab indicator"
+  },
+  {
+    "scene": "tab-switch",
+    "curve": {
+      "type": "spring",
+      "mass": 1,
+      "stiffness": 300,
+      "damping": 20,
+      "velocity": 0
+    },
+    "duration": null,
+    "expectedLevel": "poor",
+    "source": "Counter-example — bouncy spring causes overshoot on tab indicator"
+  },
+  {
+    "scene": "accordion",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.42,
+      "y1": 0,
+      "x2": 0.58,
+      "y2": 1
+    },
+    "duration": 0.3,
+    "expectedLevel": "great",
+    "source": "CSS ease-in-out — smooth expand/collapse"
+  },
+  {
+    "scene": "accordion",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.2,
+      "y1": 0,
+      "x2": 0.38,
+      "y2": 0.9
+    },
+    "duration": 0.25,
+    "expectedLevel": "great",
+    "source": "IBM Carbon — standard productive"
+  },
+  {
+    "scene": "accordion",
+    "curve": {
+      "type": "bezier",
+      "x1": 0,
+      "y1": 0,
+      "x2": 0.2,
+      "y2": 1
+    },
+    "duration": 0.3,
+    "expectedLevel": "good",
+    "source": "CSS ease-out — quick expand feel"
+  },
+  {
+    "scene": "page-transition",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.4,
+      "y1": 0.14,
+      "x2": 0.3,
+      "y2": 1
+    },
+    "duration": 0.4,
+    "expectedLevel": "great",
+    "source": "IBM Carbon — standard expressive"
+  },
+  {
+    "scene": "page-transition",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.42,
+      "y1": 0,
+      "x2": 0.58,
+      "y2": 1
+    },
+    "duration": 0.35,
+    "expectedLevel": "great",
+    "source": "CSS ease-in-out — balanced page transition"
+  },
+  {
+    "scene": "page-transition",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.05,
+      "y1": 0.7,
+      "x2": 0.1,
+      "y2": 1.0
+    },
+    "duration": 0.4,
+    "expectedLevel": "good",
+    "source": "Material Design 3 — emphasized decelerate"
+  },
+  {
+    "scene": "tooltip",
+    "curve": {
+      "type": "bezier",
+      "x1": 0,
+      "y1": 0,
+      "x2": 0.2,
+      "y2": 1
+    },
+    "duration": 0.15,
+    "expectedLevel": "great",
+    "source": "CSS ease-out — quick tooltip appearance"
+  },
+  {
+    "scene": "tooltip",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.2,
+      "y1": 0,
+      "x2": 0.38,
+      "y2": 0.9
+    },
+    "duration": 0.15,
+    "expectedLevel": "great",
+    "source": "IBM Carbon — standard productive"
+  },
+  {
+    "scene": "tooltip",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.42,
+      "y1": 0,
+      "x2": 1,
+      "y2": 1
+    },
+    "duration": 0.3,
+    "expectedLevel": "poor",
+    "source": "Counter-example — slow ease-in not suitable for tooltip"
+  },
+  {
+    "scene": "carousel",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.42,
+      "y1": 0,
+      "x2": 0.58,
+      "y2": 1
+    },
+    "duration": 0.4,
+    "expectedLevel": "great",
+    "source": "CSS ease-in-out — smooth slide transition"
+  },
+  {
+    "scene": "carousel",
+    "curve": {
+      "type": "bezier",
+      "x1": 0.4,
+      "y1": 0.14,
+      "x2": 0.3,
+      "y2": 1
+    },
+    "duration": 0.35,
+    "expectedLevel": "great",
+    "source": "IBM Carbon — standard expressive"
+  },
+  {
+    "scene": "carousel",
+    "curve": {
+      "type": "bezier",
+      "x1": 0,
+      "y1": 0.8,
+      "x2": 0.2,
+      "y2": 1.1
+    },
+    "duration": 0.4,
+    "expectedLevel": "poor",
+    "source": "Counter-example — overshoot causes content jump on carousel"
+  }
+]

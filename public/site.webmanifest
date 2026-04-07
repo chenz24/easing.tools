@@ -1,0 +1,18 @@
+{
+  "name": "easing.tools — Easing & Spring Curve Editor",
+  "short_name": "easing.tools",
+  "description": "A visual editor for crafting, comparing, and exporting CSS easing curves and spring animations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f7f6",
+  "theme_color": "#1e8a6e",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["design", "developer tools", "utilities"]
+}
