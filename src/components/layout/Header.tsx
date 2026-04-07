@@ -74,7 +74,7 @@ export function Header({ curveMode = "easing", onCurveModeChange }: HeaderProps)
         {/* Right: Actions */}
         <div className="flex items-center gap-2">
           <a
-            href="https://github.com"
+            href="https://github.com/chenz24/easing.tools"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block"
@@ -103,7 +103,7 @@ export function Header({ curveMode = "easing", onCurveModeChange }: HeaderProps)
         <div className="border-t border-border bg-background md:hidden">
           <nav className="flex flex-col gap-2 p-4">
             <a
-              href="https://github.com"
+              href="https://github.com/chenz24/easing.tools"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"

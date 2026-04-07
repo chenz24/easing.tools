@@ -11,6 +11,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/chenz24/easing.tools/blob/main/LICENSE"><img src="https://img.shields.io/github/license/chenz24/easing.tools" alt="License" /></a>
+  <a href="https://github.com/chenz24/easing.tools/stargazers"><img src="https://img.shields.io/github/stars/chenz24/easing.tools" alt="Stars" /></a>
+  <a href="https://easing.tools"><img src="https://img.shields.io/badge/demo-easing.tools-blue" alt="Live Demo" /></a>
+</p>
+
+<p align="center">
   <a href="https://easing.tools">Live Demo</a> ·
   <a href="#features">Features</a> ·
   <a href="#getting-started">Getting Started</a> ·
@@ -49,6 +55,12 @@
 - Provides a fitness level (Great / Good / Fair / Poor) with actionable tips
 - Score breakdown across curve fit, duration, and stability dimensions
 - Live UI scene demos showing your curve applied to real components
+
+### Curve Comparison
+
+- Side-by-side comparison of your curve against any other preset
+- Quantitative metrics: max deviation, average deviation, T90 delta, perceived speed
+- Animated tracks for visual comparison
 
 ### Multi-Platform Code Export
 
@@ -99,7 +111,7 @@ pnpm install
 pnpm dev
 ```
 
-The dev server will start at `http://localhost:8081`.
+The dev server will start at `http://localhost:8080`.
 
 ### Build
 

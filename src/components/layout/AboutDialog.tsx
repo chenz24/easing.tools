@@ -62,7 +62,7 @@ export function AboutDialog({ open, onOpenChange }: AboutDialogProps) {
               </li>
               <li className="flex items-start gap-2">
                 <Zap className="mt-0.5 h-3.5 w-3.5 shrink-0 text-primary" />
-                Choose from 40+ built-in presets or create your own
+                Choose from 50+ built-in presets or create your own
               </li>
               <li className="flex items-start gap-2">
                 <Zap className="mt-0.5 h-3.5 w-3.5 shrink-0 text-primary" />
@@ -81,7 +81,7 @@ export function AboutDialog({ open, onOpenChange }: AboutDialogProps) {
           {/* Links & Credits */}
           <div className="flex items-center justify-between">
             <a
-              href="https://github.com"
+              href="https://github.com/chenz24/easing.tools"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"

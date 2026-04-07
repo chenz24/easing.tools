@@ -16,7 +16,7 @@ export function Footer() {
         {/* Center: Links */}
         <nav className="flex items-center gap-6">
           <a
-            href="https://github.com"
+            href="https://github.com/chenz24/easing.tools"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
