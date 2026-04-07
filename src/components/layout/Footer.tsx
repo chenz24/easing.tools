@@ -24,12 +24,6 @@ export function Footer() {
             <Github className="h-4 w-4" />
             GitHub
           </a>
-          <a
-            href="#"
-            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-          >
-            Documentation
-          </a>
           <button
             type="button"
             onClick={() => setAboutOpen(true)}
